@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="./imagens/definicoes.ico" type="image/x-icon">
+    <meta name="author" content="Catarino Grosser Ferreira">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts/openPage.js"></script>
+    <script src="./scripts/closePage.js"></script>
+
+    <script src="./scripts/openSubPageA.js"></script>
+    <script src="./scripts/openSubPageB.js"></script>
+    <script src="./scripts/openSubPageC.js"></script>
+    <script src="./scripts/openSubPageD.js"></script>
+
+    <script src="./scripts/closeSubPageA.js"></script>
+    <script src="./scripts/closeSubPageB.js"></script>
+    <script src="./scripts/closeSubPageC.js"></script>
+    <script src="./scripts/closeSubPageD.js"></script>
+    <title>main App</title>
+</head>
+<body>
+    <main id="mainMain">
+        <img class="logo" src="./imagens/definicoes.png" alt="entrar">
+        <button class="botao-A bt1" onclick="openPageA()">Cabanas</button>
+        <button class="botao-A bt2" onclick="openPageB()">Tynes</button>
+        <button class="botao-A bt3" onclick="openPageC()">Contatos</button>
+        <button class="botao-A bt4" onclick="openPageD()">Botão 4</button>
+        <footer>
+            <a class="link" href="catarinowebstudio.com">&copy; | catarinowebstudio</a>
+        </footer>
+    </main>
+    <!-- pages -->
+
+        <!-- page A -->
+            
+    <div id="page-A" class="oculto-A">
+        <button class="botaoVoltar" onclick="closePageA()">&#8630;</button>
+        Cabanas
+        <!-- A-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana01.jpg" alt="fotoItem">
+            <h2>Cabana 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageA1()">ver mais</button>
+        </div>
+        <!-- A-2 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana02.jpg" alt="fotoItem">
+            <h2>Cabana 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageA2()">ver mais</button>
+        </div>
+        <!-- A-3 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana03.jpg" alt="fotoItem">
+            <h2>cabana 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageA3()">ver mais</button>
+        </div>
+        <!-- A-4 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana04.jpg" alt="fotoItem">
+            <h2>Cabana 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageA4()">ver mais</button>
+        </div>
+        <!-- A-5 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana05.jpg" alt="fotoItem">
+            <h2>Cabana 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageA5()">ver mais</button>
+        </div>
+
+    </div>
+
+        <!-- page B -->
+
+    <div id="page-B" class="oculto-A">
+        <button class="botaoVoltar" onclick="closePageB()">&#8630;</button>
+        Tynes
+        <!-- b-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne01.jpg" alt="fotoItem">
+            <h2>Tyne 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageB1()">ver mais</button>
+        </div>
+        <!-- b-2 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne02.jpg" alt="fotoItem">
+            <h2>Tyne 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B"  onclick="openSubPageB2()">ver mais</button>
+        </div>
+        <!-- b-3 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne03.jpg" alt="fotoItem">
+            <h2>Tyne 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B"  onclick="openSubPageB3()">ver mais</button>
+        </div>
+        <!-- b-4 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne04.jpg" alt="fotoItem">
+            <h2>Tyne 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B"  onclick="openSubPageB4()">ver mais</button>
+        </div>
+        <!-- b-5 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne05.jpg" alt="fotoItem">
+            <h2>Tyne 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B"  onclick="openSubPageB5()">ver mais</button>
+        </div>
+
+    </div>
+
+    <!-- page C -->
+
+    <div id="page-C" class="oculto-A">
+        <button class="botaoVoltar" onclick="closePageC()">&#8630;</button>
+        Contatos
+        <!-- C-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+            </a>
+            </div>
+            <button class="botao-B" onclick="openSubPageC1()">ver mais</button>
+        </div>
+         <!-- C-2 -->
+
+         <!-- C 3 -->
+
+         <!-- C 4 -->
+
+         <!-- C 5 -->
+        
+    </div>
+
+        <!-- page D -->
+
+    <div id="page-D" class="oculto-A">
+        <button class="botaoVoltar" onclick="closePageD()">&#8630;</button>
+        Page-D
+        <!-- D-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Item Page D 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageD1()">ver mais</button>
+        </div>
+        <!-- D-2 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Item Page D 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageD2()">ver mais</button>
+        </div>
+        <!-- D-3 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Item Page D 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageD3()">ver mais</button>
+        </div>
+        <!-- D-4 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Item Page D 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageD4()">ver mais</button>
+        </div>
+        <!-- D-5 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/definicoes.png" alt="fotoItem">
+            <h2>Item Page D 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="openSubPageD5()">ver mais</button>
+        </div>
+    </div>
+
+
+    <!-- subPages A -->
+        <!-- S P A 1 -->
+    <div id="subPageA-1" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana01.jpg" alt="fotoItem">
+            <h2>Cabana 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageA1()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 2 -->
+    <div id="subPageA-2" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">
+            <h2>Cabana 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageA2()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 3 -->
+    <div id="subPageA-3" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana03.jpg" alt="fotoItem">
+            <h2>Cabana 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageA3()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 4 -->
+    <div id="subPageA-4" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana04.jpg" alt="fotoItem">
+            <h2>Cabana 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageA4()">ver menos</button>
+        </div>
+
+        <!-- S P A 5 -->
+    <div id="subPageA-5" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana05.jpg" alt="fotoItem">
+            <h2>Cabana 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageA5()">ver menos</button>
+        </div>
+    </div>
+    <!-- subPages B -->
+        <!-- S P B 1 -->
+    <div id="subPageB-1" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne01.jpg" alt="fotoItem">
+            <h2>Tyne 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageB1()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 2 -->
+    <div id="subPageB-2" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne02.jpg" alt="fotoItem">
+            <h2>Tyne 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageB2()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 3 -->
+    <div id="subPageB-3" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne03.jpg" alt="fotoItem">
+            <h2>Tyne 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageB3()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 4 -->
+    <div id="subPageB-4" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne04.jpg" alt="fotoItem">
+            <h2>Tyne 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageB4()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 5 -->
+    <div id="subPageB-5" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne05.jpg" alt="fotoItem">
+            <h2>Tyne 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                 expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                  quam maiores libero sequi hic aut fuga!
+            </p>
+            <button class="botao-B" onclick="closeSubPageB5()">ver menos</button>
+        </div>
+    </div>
+    <!-- subPages C -->
+        <!-- S P C 1 -->
+        <div id="subPageC-1" class="oculto-B">
+            <div class="itemPage">
+                
+                <div  class="form1">
+                    <h5>Contato</h5>
+                    <form action="atendimento@catarinowebstudio.com" method="post">
+                        <input type="text" name="nomeCliente" id="enterNome" placeholder="nome">
+                        <input type="email" name="emailCliente" id="enterEmail" placeholder="e-mail">
+                        <input class="botao-A" type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div id="btnContatoWhats">
+                    <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+                </div>
+                <button class="botao-B" onclick="closeSubPageC1()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P C 2 -->
+        
+    
+            <!-- S P C 3 -->
+        
+    
+            <!-- S P C 4 -->
+        
+    
+            <!-- S P C 5 -->
+        
+    <!-- subPages D -->
+        <!-- S P D 1 -->
+        <div id="subPageD-1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItem"class="fotoItemSubPage" src="./imagens/definicoes.png" alt="fotoItem">
+                <h2>Item Page D 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                     expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                      quam maiores libero sequi hic aut fuga!
+                </p>
+                <button class="botao-B" onclick="closeSubPageD1()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 2 -->
+        <div id="subPageD-2" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/definicoes.png" alt="fotoItem">
+                <h2>Item Page D 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                     expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                      quam maiores libero sequi hic aut fuga!
+                </p>
+                <button class="botao-B" onclick="closeSubPageD2()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 3 -->
+        <div id="subPageD-3" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/definicoes.png" alt="fotoItem">
+                <h2>Item Page D 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                     expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                      quam maiores libero sequi hic aut fuga!
+                </p>
+                <button class="botao-B" onclick="closeSubPageD3()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 4 -->
+        <div id="subPageD-4" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/definicoes.png" alt="fotoItem">
+                <h2>Item Page D 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                     expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                      quam maiores libero sequi hic aut fuga!
+                </p>
+                <button class="botao-B" onclick="closeSubPageD4()">ver menos</button>
+            </div>
+    
+            <!-- S P D 5 -->
+        <div id="subPageD-5" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/definicoes.png" alt="fotoItem">
+                <h2>Item Page D 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem consequatur ea
+                     expedita pariatur mollitia, repellat aliquam optio voluptate corporis velit adipisci facilis
+                      quam maiores libero sequi hic aut fuga!
+                </p>
+                <button class="botao-B" onclick="closeSubPageD5()">ver menos</button>
+            </div>
+        </div>
+</body>
+</html>
