@@ -14,3 +14,25 @@ function openSubPageD4() {
 function openSubPageD5() {
     document.getElementById("subPageD-5").style.height="100vh";
 }
+
+function openSubPageD6() {
+    document.getElementById("subPageD-6").style.height="100vh";
+}
+function openSubPageD7() {
+    document.getElementById("subPageD-7").style.height="100vh";
+}
+function openSubPageD8() {
+    document.getElementById("subPageD-8").style.height="100vh";
+}
+function openSubPageD9() {
+    document.getElementById("subPageD-9").style.height="100vh";
+}
+function openSubPageD10() {
+    document.getElementById("subPageD-10").style.height="100vh";
+}
+function openSubPageD11() {
+    document.getElementById("subPageD-11").style.height="100vh";
+}
+function openSubPageD12() {
+    document.getElementById("subPageD-12").style.height="100vh";
+}

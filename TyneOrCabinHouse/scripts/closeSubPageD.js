@@ -15,3 +15,25 @@ function closeSubPageD4() {
 function closeSubPageD5() {
     document.getElementById("subPageD-5").style.height="0";
 }
+
+function closeSubPageD6() {
+    document.getElementById("subPageD-6").style.height="0";
+}
+function closeSubPageD7() {
+    document.getElementById("subPageD-7").style.height="0";
+}
+function closeSubPageD8() {
+    document.getElementById("subPageD-8").style.height="0";
+}
+function closeSubPageD9() {
+    document.getElementById("subPageD-9").style.height="0";
+}
+function closeSubPageD10() {
+    document.getElementById("subPageD-10").style.height="0";
+}
+function closeSubPageD11() {
+    document.getElementById("subPageD-11").style.height="0";
+}
+function closeSubPageD12() {
+    document.getElementById("subPageD-12").style.height="0";
+}
