@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <meta name="author" content="Catarino Grosser Ferreira">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts/openPage.js"></script>
+    <script src="./scripts/closePage.js"></script>
+
+    <script src="./scripts/openSubPageA.js"></script>
+    <script src="./scripts/openSubPageB.js"></script>
+    <script src="./scripts/openSubPageC.js"></script>
+    <script src="./scripts/openSubPageD.js"></script>
+
+    <script src="./scripts/closeSubPageA.js"></script>
+    <script src="./scripts/closeSubPageB.js"></script>
+    <script src="./scripts/closeSubPageC.js"></script>
+    <script src="./scripts/closeSubPageD.js"></script>
+    <title>main App</title>
+</head>
+<body>
+    <main id="mainMain">
+        <img class="logo" src="./imagens/house-plants.png" alt="entrar">
+        <button class="botao-A bt1" onclick="openPageA()">Cabanas</button>
+        <button class="botao-A bt2" onclick="openPageB()">Tynes</button>
+        <button class="botao-A bt3" onclick="openPageC()">Contatos</button>
+        <button class="botao-A bt4" onclick="openPageD()">Galeria</button>
+        <footer>
+            <a class="link" href="catarinowebstudio.com">&copy; | catarinowebstudio</a>
+        </footer>
+    </main>
+
+    <!-- pages | ocultas -->
+
+        <!-- page A Cabanas -->
+            
+    <div id="page-A" class="oculto-A">
+        <button id="botaoVoltarA" class="botaoVoltar" onclick="closePageA()">&#8630;</button>
+        <strong>Cabanas</strong>
+        <!-- A-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana01.jpg" alt="fotoItem">
+            <h2>Cabana 1</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageA1()">ver mais</button>
+        </div>
+        <!-- A-2 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana02.jpg" alt="fotoItem">
+            <h2>Cabana 2</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageA2()">ver mais</button>
+        </div>
+        <!-- A-3 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana03.jpg" alt="fotoItem">
+            <h2>cabana 3</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageA3()">ver mais</button>
+        </div>
+        <!-- A-4 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana04.jpg" alt="fotoItem">
+            <h2>Cabana 4</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageA4()">ver mais</button>
+        </div>
+        <!-- A-5 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/cabana05.jpg" alt="fotoItem">
+            <h2>Cabana 5</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageA5()">ver mais</button>
+        </div>
+
+    </div>
+
+        <!-- page B Tynes -->
+
+    <div id="page-B" class="oculto-A">
+        <button id="botaoVoltarB" class="botaoVoltar" onclick="closePageB()">&#8630;</button>
+        <strong>Tynes</strong>
+        <!-- b-1 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne01.jpg" alt="fotoItem">
+            <h2>Tyne 1</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="openSubPageB1()">ver mais</button>
+        </div>
+        <!-- b-2 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne02.jpg" alt="fotoItem">
+            <h2>Tyne 2</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B"  onclick="openSubPageB2()">ver mais</button>
+        </div>
+        <!-- b-3 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne03.jpg" alt="fotoItem">
+            <h2>Tyne 3</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B"  onclick="openSubPageB3()">ver mais</button>
+        </div>
+        <!-- b-4 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne04.jpg" alt="fotoItem">
+            <p>R$ 280,00 Por diária.</p>
+            <p>R$ 140,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B"  onclick="openSubPageB4()">ver mais</button>
+        </div>
+        <!-- b-5 -->
+        <div class="itemPage">
+            <img class="fotoItem" src="./imagens/tyne05.jpg" alt="fotoItem">
+            <h2>Tyne 5</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B"  onclick="openSubPageB5()">ver mais</button>
+        </div>
+
+    </div>
+
+    <!-- page C Contatos -->
+
+    <div id="page-C" class="oculto-A">
+        <button id="botaoVoltarC" class="botaoVoltar" onclick="closePageC()">&#8630;</button>
+        <strong>Contatos</strong>
+        <!-- C-1 -->
+        <div class="itemPageContato">
+         
+            <div  class="form1">
+                <h5>Contato</h5>
+                <form action="atendimento@catarinowebstudio.com" method="post">
+                    <input type="text" name="nomeCliente" id="enterNome" placeholder="nome">
+                    <input type="email" name="emailCliente" id="enterEmail" placeholder="e-mail">
+                    <input class="botao-A" type="submit" value="Enviar">
+                </form>
+                <div id="btnContatoWhats">
+                    <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+                </div>
+            </div>
+            
+        </div>
+         <!-- C-2 -->
+
+         <!-- C 3 -->
+
+         <!-- C 4 -->
+
+         <!-- C 5 -->
+        
+    </div>
+
+        <!-- page D Galeria -->
+
+    <div id="page-D" class="oculto-A">
+        <button id="botaoVoltarD" class="botaoVoltar" onclick="closePageD()">&#8630;</button>
+        <strong>Galeria</strong>
+        <!-- D-1 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD1()">
+                <img class="fotoItem" src="./imagens/cabana01.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-2 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD2()">
+                <img class="fotoItem" src="./imagens/cabana02.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-3 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD3()">
+                <img class="fotoItem" src="./imagens/cabana03.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-4 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD4()">
+                <img class="fotoItem" src="./imagens/cabana04.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-5 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD5()">
+                <img class="fotoItem" src="./imagens/cabana05.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-6 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD6()">
+                <img class="fotoItem" src="./imagens/tyne01.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-7 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD7()">
+                <img class="fotoItem" src="./imagens/tyne02.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-8 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD8()">
+                <img class="fotoItem" src="./imagens/tyne03.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-9 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD9()">
+                <img class="fotoItem" src="./imagens/tyne04.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-10 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD10()">
+                <img class="fotoItem" src="./imagens/tyne05.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-11 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD11()">
+                <img class="fotoItem" src="./imagens/placaCostaoSiriu.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-12 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD12()">
+                <img class="fotoItem" src="./imagens/praiaSiriuMar.jpg" alt="fotoItem">
+            </button>
+        </div>
+    </div>
+
+
+    <!-- subPages A -->
+        <!-- S P A 1 -->
+    <div id="subPageA-1" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana01.jpg" alt="fotoItem">
+            <h2>Cabana 1</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p>2 quartos, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 8 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageA1()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 2 -->
+    <div id="subPageA-2" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">
+            <h2>Cabana 2</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p>2 quartos, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 8 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageA2()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 3 -->
+    <div id="subPageA-3" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana03.jpg" alt="fotoItem">
+            <h2>Cabana 3</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p>2 quartos, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 8 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageA3()">ver menos</button>
+        </div>
+    </div>
+
+        <!-- S P A 4 -->
+    <div id="subPageA-4" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana04.jpg" alt="fotoItem">
+            <h2>Cabana 4</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p>2 quartos, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 8 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageA4()">ver menos</button>
+        </div>
+
+        <!-- S P A 5 -->
+    <div id="subPageA-5" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/cabana05.jpg" alt="fotoItem">
+            <h2>Cabana 5</h2>
+            <p>R$ 280,00 Por diária.</p>
+            <p>2 quartos, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 8 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageA5()">ver menos</button>
+        </div>
+    </div>
+    <!-- subPages B -->
+        <!-- S P B 1 -->
+    <div id="subPageB-1" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne01.jpg" alt="fotoItem">
+            <h2>Tyne 1</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p>1 quarto, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 2 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageB1()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 2 -->
+    <div id="subPageB-2" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne02.jpg" alt="fotoItem">
+            <h2>Tyne 2</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p>1 quarto, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 2 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageB2()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 3 -->
+    <div id="subPageB-3" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne03.jpg" alt="fotoItem">
+            <h2>Tyne 3</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p>1 quarto, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 2 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageB3()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 4 -->
+    <div id="subPageB-4" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne04.jpg" alt="fotoItem">
+            <h2>Tyne 4</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p>1 quarto, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 2 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageB4()">ver menos</button>
+        </div>
+    </div>
+    <!-- S P B 5 -->
+    <div id="subPageB-5" class="oculto-B">
+        <div class="itemPage">
+            <img class="fotoItemSubPage" src="./imagens/tyne05.jpg" alt="fotoItem">
+            <h2>Tyne 5</h2>
+            <p>R$ 140,00 Por diária.</p>
+            <p>1 quarto, sala , cozinha, banheiro e estar.</p>
+            <p>Lotação maxima: 2 pessoas.</p>
+            <p>Reservas com Pagamento de 50% do valor no ato</p>
+            <p>Roupas de cama <strong>Inclusas.</strong></p>
+            <p><strong>Estrada regal s/n°</strong></p>
+            <button class="botao-B" onclick="closeSubPageB5()">ver menos</button>
+        </div>
+    </div>
+    <!-- subPages C Não Contem SubPages-->
+        <!-- S P C 1 -->
+       
+    
+            <!-- S P C 2 -->
+        
+    
+            <!-- S P C 3 -->
+        
+    
+            <!-- S P C 4 -->
+        
+    
+            <!-- S P C 5 -->
+        
+    <!-- subPages D -->
+        <!-- S P D 1 -->
+        <div id="subPageD-1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cabana01.jpg" alt="fotoItem">
+        
+                <button class="botao-B" onclick="closeSubPageD1()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 2 -->
+        <div id="subPageD-2" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD2()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 3 -->
+        <div id="subPageD-3" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cabana03.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD3()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 4 -->
+        <div id="subPageD-4" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cabana04.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD4()">ver menos</button>
+            </div>
+    
+            <!-- S P D 5 -->
+        <div id="subPageD-5" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cabana05.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD5()">ver menos</button>
+            </div>
+        </div>
+        <!-- S P D 6 -->
+        <div id="subPageD-6" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/tyne01.jpg" alt="fotoItem">
+        
+                <button class="botao-B" onclick="closeSubPageD6()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 7 -->
+        <div id="subPageD-7" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/tyne02.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD7()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 8 -->
+        <div id="subPageD-8" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/tyne03.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD8()">ver menos</button>
+            </div>
+        </div>
+    
+            <!-- S P D 9 -->
+        <div id="subPageD-9" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/tyne04.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD9()">ver menos</button>
+            </div>
+    
+            <!-- S P D 10 -->
+        <div id="subPageD-10" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/tyne05.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD10()">ver menos</button>
+            </div>
+        </div>
+            <!-- S P D 11 -->
+        <div id="subPageD-11" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/placaCostaoSiriu.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD11()">ver menos</button>
+            </div>
+        </div>
+            <!-- S P D 12 -->
+        <div id="subPageD-12" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/praiaSiriuMar.jpg" alt="fotoItem">
+                
+                <button class="botao-B" onclick="closeSubPageD12()">ver menos</button>
+            </div>
+        </div>
+</body>
+</html>
