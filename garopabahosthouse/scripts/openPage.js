@@ -1,5 +1,4 @@
-// open Page 
-    // open page A e botao A
+// open Page + openBotaoVolar
 function openPageA() {
     openPageAfx()
     openBotaoVoltarA()

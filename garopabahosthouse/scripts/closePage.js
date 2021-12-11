@@ -1,4 +1,4 @@
-// close Page
+// close Page + closeBotaoVoltar
 
 function closePageA() {
     closePageAfx();

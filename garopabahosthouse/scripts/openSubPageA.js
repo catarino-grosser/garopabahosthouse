@@ -14,3 +14,5 @@ function openSubPageA4() {
 function openSubPageA5() {
     document.getElementById("subPageA-5").style.height="100vh";
 }
+
+// open fotos 

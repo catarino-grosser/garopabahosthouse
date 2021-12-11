@@ -19,6 +19,11 @@
     <script src="./scripts/closeSubPageB.js"></script>
     <script src="./scripts/closeSubPageC.js"></script>
     <script src="./scripts/closeSubPageD.js"></script>
+    <script src="./scripts/openFotosCasas.js"></script>
+    <script src="./scripts/closeFotosCasas.js"></script>
+    <script src="./scripts/openFotosCasas.js"></script>
+    <script src="./scripts/closeFotosTynes.js"></script>
+    <script src="./scripts/openFotosTynes.js"></script>
     <title>main App</title>
 </head>
 <body>
@@ -148,8 +153,8 @@
                 </form>
                 <div id="btnContatoWhats">
                     <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
-                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
-                </a>
+                        <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                    </a>
                 </div>
             </div>
             
@@ -241,10 +246,24 @@
                 <img class="fotoItem" src="./imagens/praiaSiriuMar.jpg" alt="fotoItem">
             </button>
         </div>
+        <!-- D-13 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD13()">
+                <img class="fotoItem" src="./imagens/barraSiriu.jpg" alt="fotoItem">
+            </button>
+        </div>
+        <!-- D-14 -->
+        <div class="itemPage">
+            <button onclick="openSubPageD14()">
+                <img class="fotoItem" src="./imagens/barraVistaCostaoSiriu.jpg" alt="fotoItem">
+            </button>
+        </div>
     </div>
 
 
     <!-- subPages A -->
+
+
         <!-- S P A 1 -->
     <div id="subPageA-1" class="oculto-B">
         <div class="itemPage">
@@ -256,6 +275,17 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <div class="grid">
+                <button onclick="openFoto01A1()"><img class="fotoItemSubPage" src="./imagens/quartoCasaA1.png" alt="foto"></button>
+                <button onclick="openFoto02A1()"> <img class="fotoItemSubPage" src="./imagens/salaCasaA1.jpg" alt="foto"></button>
+                <button onclick="openFoto03A1()"><img class="fotoItemSubPage" src="./imagens/cozinhaCasaA1.jpg" alt="foto"></button>
+            </div>
             <button class="botao-B" onclick="closeSubPageA1()">ver menos</button>
         </div>
     </div>
@@ -263,7 +293,7 @@
         <!-- S P A 2 -->
     <div id="subPageA-2" class="oculto-B">
         <div class="itemPage">
-            <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">
+            <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">           
             <h2>Cabana 2</h2>
             <p>R$ 280,00 Por diária.</p>
             <p>2 quartos, sala , cozinha, banheiro e estar.</p>
@@ -271,6 +301,17 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <div class="grid">
+                <button onclick="openFoto01A2()"><img class="fotoItemSubPage" src="./imagens/quartoA2.jpg" alt="foto"></button>
+                <button onclick="openFoto02A2()"> <img class="fotoItemSubPage" src="./imagens/salaA2.jpg" alt="foto"></button>
+                <button onclick="openFoto03A2()"><img class="fotoItemSubPage" src="./imagens/cozinhaA2.jpg" alt="foto"></button>
+            </div>
             <button class="botao-B" onclick="closeSubPageA2()">ver menos</button>
         </div>
     </div>
@@ -286,6 +327,17 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <div class="grid">
+                <button onclick="openFoto01A3()"><img class="fotoItemSubPage" src="./imagens/quartoA3.jpg" alt="foto"></button>
+                <button onclick="openFoto02A3()"> <img class="fotoItemSubPage" src="./imagens/salaA3.jpg" alt="foto"></button>
+                <button onclick="openFoto03A3()"><img class="fotoItemSubPage" src="./imagens/cozinhaA3.jpg" alt="foto"></button>
+            </div>
             <button class="botao-B" onclick="closeSubPageA3()">ver menos</button>
         </div>
     </div>
@@ -293,7 +345,6 @@
         <!-- S P A 4 -->
     <div id="subPageA-4" class="oculto-B">
         <div class="itemPage">
-            <img class="fotoItemSubPage" src="./imagens/cabana04.jpg" alt="fotoItem">
             <h2>Cabana 4</h2>
             <p>R$ 280,00 Por diária.</p>
             <p>2 quartos, sala , cozinha, banheiro e estar.</p>
@@ -301,6 +352,17 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <div class="grid">
+                <button onclick="openFoto01A4()"><img class="fotoItemSubPage" src="./imagens/quartoA4.jpg" alt="foto"></button>
+                <button onclick="openFoto02A4()"> <img class="fotoItemSubPage" src="./imagens/salaA4.jpg" alt="foto"></button>
+                <button onclick="openFoto03A4()"><img class="fotoItemSubPage" src="./imagens/cozinhaA4.jpg" alt="foto"></button>
+            </div>
             <button class="botao-B" onclick="closeSubPageA4()">ver menos</button>
         </div>
 
@@ -315,6 +377,17 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <div class="grid">
+                <button onclick="openFoto01A5()"><img class="fotoItemSubPage" src="./imagens/quartoA5.jpg" alt="foto"></button>
+                <button onclick="openFoto02A5()"> <img class="fotoItemSubPage" src="./imagens/salaA5.jpg" alt="foto"></button>
+                <button onclick="openFoto03A5()"><img class="fotoItemSubPage" src="./imagens/cozinhaA5.jpg" alt="foto"></button>
+            </div>
             <button class="botao-B" onclick="closeSubPageA5()">ver menos</button>
         </div>
     </div>
@@ -330,6 +403,13 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <button onclick="openFoto01B1()"><img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt=""></button>
             <button class="botao-B" onclick="closeSubPageB1()">ver menos</button>
         </div>
     </div>
@@ -344,6 +424,13 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <button onclick="openFoto01B1()"><img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt=""></button>
             <button class="botao-B" onclick="closeSubPageB2()">ver menos</button>
         </div>
     </div>
@@ -358,6 +445,13 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <button onclick="openFoto01B1()"><img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt=""></button>
             <button class="botao-B" onclick="closeSubPageB3()">ver menos</button>
         </div>
     </div>
@@ -372,6 +466,13 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <button onclick="openFoto01B1()"><img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt=""></button>
             <button class="botao-B" onclick="closeSubPageB4()">ver menos</button>
         </div>
     </div>
@@ -386,6 +487,13 @@
             <p>Reservas com Pagamento de 50% do valor no ato</p>
             <p>Roupas de cama <strong>Inclusas.</strong></p>
             <p><strong>Estrada regal s/n°</strong></p>
+            <h5>Reserva por Whatsapp</h5>
+            <div id="btnContatoWhats">
+                <a href="https://api.whatsapp.com/send?phone=5548988662824&text=Olá." target="_blank">
+                    <img class="iconeBTN" src="./imagens/iconewhats.png" alt="icone whtasapp">
+                </a>
+            </div>
+            <button onclick="openFoto01B1()"><img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt=""></button>
             <button class="botao-B" onclick="closeSubPageB5()">ver menos</button>
         </div>
     </div>
@@ -409,8 +517,8 @@
         <div id="subPageD-1" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/cabana01.jpg" alt="fotoItem">
-        
-                <button class="botao-B" onclick="closeSubPageD1()">ver menos</button>
+                <h4>Cabana 1</h4>
+                <button class="botao-B" onclick="closeSubPageD1()">&#10005;</button>
             </div>
         </div>
     
@@ -418,8 +526,8 @@
         <div id="subPageD-2" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/cabana02.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD2()">ver menos</button>
+                <h4>Cabana 2</h4>
+                <button class="botao-B" onclick="closeSubPageD2()">&#10005;</button>
             </div>
         </div>
     
@@ -427,8 +535,8 @@
         <div id="subPageD-3" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/cabana03.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD3()">ver menos</button>
+                <h4>Cabana 3</h4>
+                <button class="botao-B" onclick="closeSubPageD3()">&#10005;</button>
             </div>
         </div>
     
@@ -436,24 +544,24 @@
         <div id="subPageD-4" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/cabana04.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD4()">ver menos</button>
+                <h4>Cabana 4</h4>
+                <button class="botao-B" onclick="closeSubPageD4()">&#10005;</button>
             </div>
     
             <!-- S P D 5 -->
         <div id="subPageD-5" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/cabana05.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD5()">ver menos</button>
+                <h4>Cabana 5</h4>
+                <button class="botao-B" onclick="closeSubPageD5()">&#10005;</button>
             </div>
         </div>
         <!-- S P D 6 -->
         <div id="subPageD-6" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/tyne01.jpg" alt="fotoItem">
-        
-                <button class="botao-B" onclick="closeSubPageD6()">ver menos</button>
+        <h4>Tyne house 1</h4>
+                <button class="botao-B" onclick="closeSubPageD6()">&#10005;</button>
             </div>
         </div>
     
@@ -461,8 +569,8 @@
         <div id="subPageD-7" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/tyne02.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD7()">ver menos</button>
+                <h4>Tyne house 2</h4>
+                <button class="botao-B" onclick="closeSubPageD7()">&#10005;</button>
             </div>
         </div>
     
@@ -470,8 +578,8 @@
         <div id="subPageD-8" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/tyne03.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD8()">ver menos</button>
+                <h4>Tyne house 3</h4>
+                <button class="botao-B" onclick="closeSubPageD8()">&#10005;</button>
             </div>
         </div>
     
@@ -479,33 +587,222 @@
         <div id="subPageD-9" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/tyne04.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD9()">ver menos</button>
+                <h4>Tyne house 4</h4>
+                <button class="botao-B" onclick="closeSubPageD9()">&#10005;</button>
             </div>
     
             <!-- S P D 10 -->
         <div id="subPageD-10" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/tyne05.jpg" alt="fotoItem">
+                <h4>Tyne house 5</h4>
                 
-                <button class="botao-B" onclick="closeSubPageD10()">ver menos</button>
+                <button class="botao-B" onclick="closeSubPageD10()">&#10005;</button>
             </div>
         </div>
             <!-- S P D 11 -->
         <div id="subPageD-11" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/placaCostaoSiriu.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD11()">ver menos</button>
+                <h4>Costão do Siriú.</h4>
+                <button class="botao-B" onclick="closeSubPageD11()">&#10005;</button>
             </div>
         </div>
             <!-- S P D 12 -->
         <div id="subPageD-12" class="oculto-B">
             <div class="itemPage">
                 <img class="fotoItemSubPage" src="./imagens/praiaSiriuMar.jpg" alt="fotoItem">
-                
-                <button class="botao-B" onclick="closeSubPageD12()">ver menos</button>
+                <h4>Praia do siriú vista do mar.</h4>
+                <button class="botao-B" onclick="closeSubPageD12()">&#10005;</button>
             </div>
         </div>
+            <!-- S P D 13 -->
+        <div id="subPageD-13" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/barraSiriu.jpg" alt="fotoItem">
+                <h4>Barra do siriú.</h4>
+                <button class="botao-B" onclick="closeSubPageD13()">&#10005;</button>
+            </div>
+        </div>
+            <!-- S P D 14 -->
+        <div id="subPageD-14" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/barraVistaCostaoSiriu.jpg" alt="fotoItem">
+                <h4>Praia do siriú vista do costão.</h4>
+                
+                <button class="botao-B" onclick="closeSubPageD14()">&#10005;</button>
+            </div>
+        </div>
+
+    <!-- FOTOS -->
+
+        <!-- fotos casas -->
+        <!-- A1 -->
+        <!-- foto01A1 -->
+        <div id="foto01A1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/quartoCasaA1.png" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01A1()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto02A1 -->
+        <div id="foto02A1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/salaCasaA1.jpg" alt="fotoItem">
+                <h4>Sala de estar.</h4>
+                
+                <button class="botao-B" onclick="closeFoto02A1()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto03A1 -->
+        <div id="foto03A1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cozinhaCasaA1.jpg" alt="fotoItem">
+                <h4>Cozinha.</h4>
+                
+                <button class="botao-B" onclick="closeFoto03A1()">&#10005;</button>
+            </div>
+        </div>
+
+        <!-- A2 -->
+
+        <!-- foto01A2 -->
+        <div id="foto01A2" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/quartoA2.jpg" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01A2()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto02A2 -->
+        <div id="foto02A2" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/salaA2.jpg" alt="fotoItem">
+                <h4>Sala de estar.</h4>
+                
+                <button class="botao-B" onclick="closeFoto02A2()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto03A2 -->
+        <div id="foto03A2" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cozinhaA2.jpg" alt="fotoItem">
+                <h4>Cozinha.</h4>
+                
+                <button class="botao-B" onclick="closeFoto03A2()">&#10005;</button>
+            </div>
+        </div>
+
+        <!-- A3 -->
+
+        <!-- foto01A3 -->
+        <div id="foto01A3" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/quartoA3.jpg" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01A3()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto02A3 -->
+        <div id="foto02A3" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/salaA3.jpg" alt="fotoItem">
+                <h4>Sala de estar.</h4>
+                
+                <button class="botao-B" onclick="closeFoto02A3()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto03A3 -->
+        <div id="foto03A3" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cozinhaA3.jpg" alt="fotoItem">
+                <h4>Cozinha.</h4>
+                
+                <button class="botao-B" onclick="closeFoto03A3()">&#10005;</button>
+            </div>
+        </div>
+
+        <!-- A4 -->
+
+        <!-- foto01A4 -->
+        <div id="foto01A4" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/quartoA4.jpg" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01A4()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto02A4 -->
+        <div id="foto02A4" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/salaA4.jpg" alt="fotoItem">
+                <h4>Sala de estar.</h4>
+                
+                <button class="botao-B" onclick="closeFoto02A4()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto03A4 -->
+        <div id="foto03A4" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cozinhaA4.jpg" alt="fotoItem">
+                <h4>Cozinha.</h4>
+                
+                <button class="botao-B" onclick="closeFoto03A4()">&#10005;</button>
+            </div>
+        </div>
+
+        <!-- A5 -->
+
+        <!-- foto01A5 -->
+        <div id="foto01A5" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/quartoA5.jpg" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01A5()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto02A5 -->
+        <div id="foto02A5" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/salaA5.jpg" alt="fotoItem">
+                <h4>Sala de estar.</h4>
+                
+                <button class="botao-B" onclick="closeFoto02A5()">&#10005;</button>
+            </div>
+        </div>
+        <!-- foto03A5 -->
+        <div id="foto03A5" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/cozinhaA5.jpg" alt="fotoItem">
+                <h4>Cozinha.</h4>
+                
+                <button class="botao-B" onclick="closeFoto03A5()">&#10005;</button>
+            </div>
+        </div>
+
+
+        <!-- fotos tynes -->
+
+        <!-- foto01B1 -->
+        <div id="foto01B1" class="oculto-B">
+            <div class="itemPage">
+                <img class="fotoItemSubPage" src="./imagens/fotoTyne01B1.jpg" alt="fotoItem">
+                <h4>Quarto Principal.</h4>
+                
+                <button class="botao-B" onclick="closeFoto01B1()">&#10005;</button>
+            </div>
+        </div>
+
+        <!-- foto02B1 -->
+
+
+        <!-- foto03B1 -->
+
 </body>
 </html>
