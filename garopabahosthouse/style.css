@@ -10,13 +10,14 @@ footer { margin-top: 5vh;}
 /* Css Único */
 
 #mainIndex { width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center;
-     flex-direction: column;  background-image:url("./imagens/bgIndex.jpg"); background-size: cover; background-position:center;}
+     flex-direction: column;  background-image:url("./imagens/bgIndex.jpg");}
 #mainMain  {  width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center;
-    flex-direction: column; background-image:url("./imagens/casca03.jpg");}
-#page-A { background-image: url("./imagens/casca01.jpg");  background-position:center;}
-#page-B { background-image: url("./imagens/casca02.jpg");  background-position:center;}
-#page-C { background-image: linear-gradient(to right,  rgb(0, 68, 255), rgb(255, 208, 0));}
-#page-D { background-image: linear-gradient(to right,  rgb(0, 0, 0), rgb(255, 255, 255));}
+    flex-direction: column; background-image:url("./imagens/bgIndex.jpg");}
+#page-A { background-image: url("./imagens/bgIndex.jpg");}
+#page-B { background-image: url("./imagens/bgIndex.jpg");}
+#page-C {background-image: url("./imagens/bgIndex.jpg");}
+#page-D { background-image: url("./imagens/bgIndex.jpg");}
+#page-E { background-image: url("./imagens/bgIndex.jpg");}
 
 /* CSS Reútilizavel */
 
@@ -24,22 +25,26 @@ footer { margin-top: 5vh;}
 .linkEntrar { width: max-content;}
 .logo { width: 70px; margin-bottom: 5vh;}
 .link { color: rgb(255, 127, 67);}
-.botao-A {  width: 80%; display: block;color: ivory;background-image: linear-gradient(to right, rgb(255, 123, 0) , rgb(255, 195, 116));
+#bt1,#bt2,#bt5,.botao-A {  width: 80%; display: block;color: ivory;background-image: linear-gradient(to right, rgb(255, 123, 0) , rgb(255, 195, 116));
     border-radius: 10px;text-align: center;padding: 15px 0;margin:auto;margin: 3vh auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);}
-.botao-B {  width: 20%; display: flex; align-items:center; justify-content: center; color: ivory;background-image: linear-gradient(to right, rgb(255, 195, 116) , rgb(255, 123, 0));
+#bt3,#bt4 {  width: 80%; display: block;color: ivory;background-image: linear-gradient(to right, rgb(255, 195, 116) ,rgb(255, 123, 0));
     border-radius: 10px;text-align: center;padding: 15px 0;margin:auto;margin: 3vh auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);}
-.botaoVoltar { font-size: x-large;border-radius: 10px;display: none;position: fixed;bottom: 5vh;right: 5vw;width: 30vw; height: 5vh;
+.botao-B {  width: 50%; display: flex; align-items:center; justify-content: center; color: ivory;background-image: linear-gradient(to right, rgb(255, 195, 116) , rgb(255, 123, 0));
+    border-radius: 10px;text-align: center;padding: 6px 0;margin:auto;margin: 3vh auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);}
+.botaoVoltar { font-size: x-large;border-radius: 10px;display: none;position: fixed;bottom: 3vh;right: 3vw;width: 30vw; height: 5vh;
      background-image: linear-gradient(to right, rgb(255, 195, 116) , rgb(255, 123, 0));color: gainsboro;}
 .oculto-A { height: 0; width: 100%; transition: all 1.3s linear; position: fixed; z-index: 10; top: 0; overflow:scroll;}
-.oculto-B { height: 0; width: 100%; transition: all 1.3s linear; position: fixed; z-index: 100; top: 0; overflow:scroll;background-image:url("./imagens/casca03.jpg");
+.oculto-B { height: 0; width: 100%; transition: all 1.3s linear; position: fixed; z-index: 100; top: 0; overflow:scroll;background-image:url("./imagens/bgIndex.jpg");
     }
-.itemPage { width: 90%; margin:3vh auto; padding: 3%;color: gray; background-color: rgba(0, 0, 0, 0.76);}
-.itemPageContato { display: flex; flex-wrap: wrap; flex-direction: column;align-items: center;justify-content: center;
+.itemPage { width: 90%;margin: 5vh auto;padding: 3%;color: gray; background-color: rgba(0, 0, 0, 0.76);}
+.itemPageContato { display: flex;align-items: center;justify-content: center;
      width: 90%; margin:2% auto; padding: 3%;color: gray; background-color: rgba(0, 0, 0, 0.76);}
-.fotoItem { width: 50%;}
+.fotoItem { width: 40%;}
 .fotoItemSubPage { width: 94%; margin: 3%;}
 .grid { display: grid; grid-template-columns: auto auto; column-gap: 2vw; row-gap: 2vh;}
-
+.grid3cl { display: grid; grid-template-columns:auto auto auto; column-gap: 2vw; row-gap: 2vh;}
+.caixaFlex { display: flex; align-items: center; justify-content: center;}
+.textCenter { width: 60%; text-align: center;}
 
 /* config. contact*/
 .form { width: auto; margin: 30%;}
@@ -47,5 +52,5 @@ footer { margin-top: 5vh;}
 #btnContatoWhats{ width: 70px; height: 70px; margin: auto;}
 #btnContatoMail{ width: 50px; height: 50px; margin: auto;}
 #btnContatoMail:hover{cursor: pointer;}
-.form1 { margin-top: 5vh; padding: 3%; background-color: rgb(24, 24, 24);}
+.form1 {  padding: 3%; background-color: rgb(24, 24, 24);}
 input { margin: 3%;}
